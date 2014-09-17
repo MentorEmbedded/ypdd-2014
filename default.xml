@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yoctoproject" fetch="git://git.yoctoproject.org/"/>
+  <remote name="Freescale" fetch="git://github.com/Freescale/"/>
+  <remote name="openembedded" fetch="git://git.openembedded.org/"/>
+  <default revision="daisy" remote="yoctoproject"/>
+
+  <project name="meta-fsl-arm"/>
+  <project name="meta-intel"/>
+  <project name="meta-ti"/>
+  <project name="poky"/>
+  <project name="meta-fsl-arm-extra" remote="Freescale"/>
+  <project name="meta-fsl-demos" remote="Freescale"/>
+  <project name="meta-openembedded" remote="openembedded"/>
+</manifest>
